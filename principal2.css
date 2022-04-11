@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+
+.cabecario{
+    height: 20%;
+    background-color: red;
+    
+}
+
+.container{
+    display: grid;
+    height: 60%;
+    grid-template-columns: 2fr 6fr ;
+    grid-template-rows: max-content;
+}
+
+.menu-lateral{
+    grid-column: 1fr ;
+    grid-row: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow ;
+    height: 100%;
+}
+
+.conteudo{
+    display: flex;
+    grid-column:  2fr ;
+    grid-row:auto;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    background-size: cover;
+    height: 100%;
+
+}
+
+footer{
+    height: 20%;
+    background-color: blue;
+}
