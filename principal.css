@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.menu-lateral{
+    float: left;
+    height: 80%;
+    width: 20%;
+    background-color: yellow;
+}
+
+.cabecario{
+    height: 10%;
+    width: 100%;
+    background-color: red;
+    
+}
+
+.conteudo{
+    float: right;
+    height: 80%;
+    width: 80%;
+    background-color: green;
+}
+
+footer{
+    clear: both;
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
