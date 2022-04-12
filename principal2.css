@@ -8,19 +8,19 @@
 
 .cabecario{
     background-color: red;
-    height: 20vh;
+    height: 10vh;
     
 }
 
 .container{
     display: grid;
-    height: 60vh;
+    height: 80vh;
     grid-template-columns:  1fr 2fr ;
-    grid-template-rows: 60vh;
+    grid-template-rows: 80vh;
 }
 
 .menu-lateral{
-    grid-row:60vh;
+    grid-row:80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@
 
 .conteudo{
     display: flex;
-    grid-row: 60vh;
+    grid-row: 80vh;
     justify-content: center;
     align-items: center;
     background-color: green;
@@ -38,6 +38,6 @@
 }
 
 footer{
-    height: 20vh;
+    height: 10vh;
     background-color: blue;
 }
