@@ -7,7 +7,7 @@
 
 
 .cabecario{
-    background-image: url("locadora-logo.jpg");
+    background-image: url("./img/locadora-logo.jpg");
     height: 10vh;
     background-size: cover;
     background-position: center;
