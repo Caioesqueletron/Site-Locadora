@@ -97,6 +97,23 @@ footer{
     display: inline;
     padding: 10px;
 }
+.filmes{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+}
+
+.filmes div{
+    display: flex;
+    background-color: red;
+    padding: 2px;
+    flex-grow: 1;
+    border: 1px solid;
+    flex-direction: column;
+}
 
 button{
     color: black;
