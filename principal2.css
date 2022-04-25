@@ -27,6 +27,19 @@
     background-color: yellow ;
 }
 
+.menu-lateral ul li {
+    display: flex;
+    padding: 20px;
+       
+    justify-content: space-between;
+}
+
+li a{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 8px;
+}
+
 .conteudo{
     display: flex;
     grid-row: 80vh;
