@@ -7,9 +7,11 @@
 
 
 .cabecario{
-    background-color: red;
+    background-image: url("locadora-logo.jpg");
     height: 10vh;
-    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -24,32 +26,47 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: yellow ;
+    background-color: green ;
+    
 }
 
 .menu-lateral ul li {
     display: flex;
     padding: 20px;
-       
-    justify-content: space-between;
+    
+}
+
+li{
+    justify-content: center;
+    
 }
 
 li a{
     background-color: aqua;
     padding: 5px;
     border-radius: 8px;
+    justify-content: space-between;
 }
 
+a{
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
 .conteudo{
     display: flex;
     grid-row: 80vh;
     justify-content: center;
     align-items: center;
-    background-color: green;
     background-size: cover;
-
+    
 }
-
+.conteudo img{
+    width: 20%;
+    height: 20%;
+}
 footer{
     height: 10vh;
     background-color: blue;
