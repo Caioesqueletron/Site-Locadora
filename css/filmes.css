@@ -9,7 +9,7 @@
 .cabecario{
     background-image: url("../img/locadora-logo.jpg");
     height: 10vh;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -62,24 +62,13 @@ a:visited{
     flex-direction: column;
     background-size: cover;
     background-color: white;
-    text-align: justify;
+    justify-content: flex-start;
+   
     
 }
 
-.texto-descricao{
-    width: 30%;
-    height: 50%;
-    background-color: yellow;
-    margin-top: 30px;
-    padding: 15px;
-    border-radius: 10px;
-}
-.conteudo img{
-    width: 15%;
-    height: 20%;
-    margin-top: 20px;
-    
-}
+
+
 footer{
     display: flex;
     justify-content: center;
@@ -90,6 +79,7 @@ footer{
 
 .menu{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -99,20 +89,33 @@ footer{
 }
 .filmes{
     display: flex;
-    background-color: aqua;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-top: 30px;
     
 }
 
 .filmes div{
     display: flex;
-    background-color: red;
-    padding: 2px;
-    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
     border: 1px solid;
     flex-direction: column;
+}
+
+.filmes div img {
+    width: 100px;
+    height: 150px;
+    margin-top: 20px;
+
+}
+.filmes div a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+
 }
 
 button{

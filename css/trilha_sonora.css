@@ -5,6 +5,26 @@
 
 }
 
+li{
+    justify-content: center;
+    
+}
+
+li a{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+a{
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+
 
 .cabecario{
     background-image: url("../img/locadora-logo.jpg");
@@ -36,25 +56,7 @@
     
 }
 
-li{
-    justify-content: center;
-    
-}
 
-li a{
-    background-color: aqua;
-    padding: 5px;
-    border-radius: 8px;
-    justify-content: space-between;
-}
-
-a{
-    color: blue;
-}
-
-a:visited{
-    color: blue;
-}
 .conteudo{
     display: flex;
     grid-row: 80vh;
@@ -65,23 +67,36 @@ a:visited{
     text-align: justify;
     justify-content: center;
     padding: 50px;
+   
+
     
 }
 
-.texto-descricao{
-    width: 30%;
-    height: 50%;
-    background-color: yellow;
-    margin-top: 30px;
-    padding: 15px;
-    border-radius: 10px;
+.trilhasSonoras{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    overflow: auto ;
 }
-.conteudo img{
-    width: 15%;
-    height: 20%;
-    margin-top: 20px;
-    
+
+.trilhasSonoras div{
+    position: inherit;
+    display: flex;
+    padding: 0;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
 }
+
+.trilhasSonoras audio{
+    margin-top: 10px;
+}
+
+
+
 footer{
     display: flex;
     justify-content: center;
