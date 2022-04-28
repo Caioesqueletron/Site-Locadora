@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+
+}
+
+
+.cabecario{
+    background-image: url("../img/locadora-logo.jpg");
+    height: 10vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: grid;
+    height: 80vh;
+    grid-template-columns:  1fr 4fr ;
+    grid-template-rows: 80vh;
+}
+
+.menu-lateral{
+    grid-row:80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green ;
+    
+}
+
+.menu-lateral ul li {
+    display: flex;
+    padding: 20px;
+    
+}
+
+li{
+    justify-content: center;
+    
+}
+
+li a{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+a{
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+.conteudo{
+    display: flex;
+    grid-row: 80vh;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-color: white;
+    justify-content: flex-start;
+   
+    
+}
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-filmes .pagina-filmes{
+    display: inline;
+    padding: 10px;
+}
+.filmes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.filmes div{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.poster {
+    display: flex;
+    align-items: center;
+}
+
+.poster img {
+    max-width: 297px;
+    max-height: 407px;
+}
+
+.fichaTecnica{
+    display: flex;
+    align-items: baseline;
+    text-align: justify;
+    width: 40%;
+    height: auto;
+}
+
+.fichaTecnica p {
+    margin-bottom: 10px;
+}
+
+
+button{
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: aquamarine;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: blue;
+}
