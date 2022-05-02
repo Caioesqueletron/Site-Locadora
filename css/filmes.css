@@ -12,6 +12,7 @@
     background-image: url("../img/locadora-logo.jpg");
     height: 10vh;
     background-position: center;
+    background-size: 30%;
     background-repeat: no-repeat;
     background-color: black;
 }
@@ -40,17 +41,19 @@
 
 }
 
-.menu-lateral ul li:hover {
+
+.menu-lateral ul li:hover a {
     background-color: white;
     color: black;
 }
 
-.menu-lateral ul li a:hover {
+.menu-lateral ul li:hover i {
+    background-color: white;
     color: black;
 }
 
-.menu-lateral ul li i:hover {
-    color: black;
+.menu-lateral ul li:hover{
+    background-color: white;
 }
 
 li {
@@ -68,7 +71,7 @@ li a {
 
 
 a:visited {
-    color: inherit;
+    color: white;
 }
 
 

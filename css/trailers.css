@@ -11,7 +11,7 @@
 
 
 a:visited {
-    color: inherit;
+    color: white;
 }
 
 
@@ -20,6 +20,7 @@ a:visited {
     height: 10vh;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 30%;
     background-color: black;
 }
 
@@ -47,17 +48,19 @@ a:visited {
 
 }
 
-.menu-lateral ul li:hover {
+
+.menu-lateral ul li:hover a {
     background-color: white;
     color: black;
 }
 
-.menu-lateral ul li a:hover {
+.menu-lateral ul li:hover i {
+    background-color: white;
     color: black;
 }
 
-.menu-lateral ul li i:hover {
-    color: black;
+.menu-lateral ul li:hover{
+    background-color: white;
 }
 
 li {
