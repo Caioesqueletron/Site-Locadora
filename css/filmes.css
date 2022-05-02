@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     max-height: 100vh;
-
+    font-family: 'Oxygen', sans-serif;
 }
 
 
 .cabecario{
     background-image: url("../img/locadora-logo.jpg");
     height: 10vh;
-    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: black;
 }
 
 .container{
@@ -25,15 +25,21 @@
     grid-row:80vh;
     display: flex;
     align-items: center;
+    color: white;
     justify-content: center;
-    background-color: green ;
+    background-color: black ;
     
 }
 
 .menu-lateral ul li {
     display: flex;
+    width: 100%;
     padding: 20px;
     
+}
+
+.menu-lateral ul li:hover{
+    background-color: white;
 }
 
 li{
@@ -42,19 +48,18 @@ li{
 }
 
 li a{
-    background-color: aqua;
+    color: white;
     padding: 5px;
     border-radius: 8px;
     justify-content: space-between;
+    text-decoration: none;
 }
 
-a{
-    color: blue;
-}
 
 a:visited{
-    color: blue;
+    color: inherit;
 }
+
 .conteudo{
     display: flex;
     grid-row: 80vh;
@@ -67,15 +72,6 @@ a:visited{
     
 }
 
-
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    background-color: blue;
-}
 
 .menu{
     display: flex;
@@ -92,7 +88,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 80px;
     
 }
 
@@ -124,4 +120,13 @@ button{
     padding: 10px;
     margin-top: 20px;
     background-color: aquamarine;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
 }
