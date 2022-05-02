@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     max-height: 100vh;
@@ -7,7 +7,7 @@
 }
 
 
-.cabecario{
+.cabecario {
     background-image: url("../img/locadora-logo.jpg");
     height: 10vh;
     background-position: center;
@@ -15,49 +15,49 @@
     background-color: black;
 }
 
-.container{
+.container {
     display: grid;
     height: 80vh;
-    grid-template-columns:  1fr 4fr ;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 80vh;
 }
 
-.menu-lateral{
-    grid-row:80vh;
+.menu-lateral {
+    grid-row: 80vh;
     display: flex;
     align-items: center;
     color: white;
     justify-content: center;
-    background-color: black ;
-    
+    background-color: black;
+
 }
 
 .menu-lateral ul li {
     display: flex;
     align-items: center;
     padding: 20px;
-    
+
 }
 
-.menu-lateral ul li:hover{
+.menu-lateral ul li:hover {
     background-color: white;
     color: black;
 }
 
-.menu-lateral ul li a:hover{
+.menu-lateral ul li a:hover {
     color: black;
 }
 
-.menu-lateral ul li i:hover{
+.menu-lateral ul li i:hover {
     color: black;
 }
 
-li{
+li {
     justify-content: center;
-    
+
 }
 
-li a{
+li a {
     color: white;
     padding: 5px;
     border-radius: 8px;
@@ -67,10 +67,11 @@ li a{
 
 
 
-a:visited{
+a:visited {
     color: inherit;
 }
-.conteudo{
+
+.conteudo {
     display: flex;
     grid-row: 80vh;
     align-items: center;
@@ -78,34 +79,34 @@ a:visited{
     background-size: cover;
     background-color: white;
     justify-content: flex-start;
-   
-    
+
+
 }
 
 
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.menu-filmes .pagina-filmes{
+.menu-filmes .pagina-filmes {
     display: inline;
     padding: 10px;
 }
-.filmes{
+
+.filmes {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    
+
 }
 
-.filmes div{
+.filmes div {
     display: flex;
     justify-content: center;
-    border: 1px solid;
     padding: 10px;
     flex-direction: column;
 }
@@ -118,9 +119,10 @@ a:visited{
 .poster img {
     max-width: 297px;
     max-height: 407px;
+    border: 1px solid black
 }
 
-.fichaTecnica{
+.fichaTecnica {
     display: flex;
     align-items: baseline;
     text-align: justify;
@@ -134,18 +136,19 @@ a:visited{
 
 
 
-button{
+button {
     color: white;
-    border-style:  none;
+    border-style: none;
     border-radius: 10px;
     text-decoration: none;
     display: inline-block;
     padding: 10px;
     margin-top: 20px;
     background-color: black;
+    cursor: pointer;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;

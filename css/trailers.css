@@ -6,18 +6,7 @@
 
 }
 
-li {
-    justify-content: center;
 
-}
-
-li a {
-    color: white;
-    padding: 5px;
-    border-radius: 8px;
-    justify-content: space-between;
-    text-decoration: none;
-}
 
 
 a:visited {
@@ -70,6 +59,18 @@ a:visited {
     color: black;
 }
 
+li {
+    justify-content: center;
+
+}
+
+.menu-lateral li a {
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    justify-content: space-between;
+    text-decoration: none;
+}
 
 
 

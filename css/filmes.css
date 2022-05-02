@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     max-height: 100vh;
@@ -6,7 +6,7 @@
 }
 
 
-.cabecario{
+.cabecario {
     background-image: url("../img/locadora-logo.jpg");
     height: 10vh;
     background-position: center;
@@ -14,49 +14,49 @@
     background-color: black;
 }
 
-.container{
+.container {
     display: grid;
     height: 80vh;
-    grid-template-columns:  1fr 4fr ;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 80vh;
 }
 
-.menu-lateral{
-    grid-row:80vh;
+.menu-lateral {
+    grid-row: 80vh;
     display: flex;
     align-items: center;
     color: white;
     justify-content: center;
-    background-color: black ;
-    
+    background-color: black;
+
 }
 
 .menu-lateral ul li {
     display: flex;
     align-items: center;
     padding: 20px;
-    
+
 }
 
-.menu-lateral ul li:hover{
+.menu-lateral ul li:hover {
     background-color: white;
     color: black;
 }
 
-.menu-lateral ul li a:hover{
+.menu-lateral ul li a:hover {
     color: black;
 }
 
-.menu-lateral ul li i:hover{
+.menu-lateral ul li i:hover {
     color: black;
 }
 
-li{
+li {
     justify-content: center;
-    
+
 }
 
-li a{
+li a {
     color: white;
     padding: 5px;
     border-radius: 8px;
@@ -65,11 +65,13 @@ li a{
 }
 
 
-a:visited{
+a:visited {
     color: inherit;
 }
 
-.conteudo{
+
+
+.conteudo {
     display: flex;
     grid-row: 80vh;
     align-items: center;
@@ -77,36 +79,36 @@ a:visited{
     background-size: cover;
     background-color: white;
     justify-content: flex-start;
-   
-    
+
+
 }
 
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.menu-filmes .pagina-filmes{
+.menu-filmes .pagina-filmes {
     display: inline;
     padding: 10px;
 }
-.filmes{
+
+.filmes {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 80px;
-    
+
 }
 
-.filmes div{
+.filmes div {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 15vw;
-    border: 1px solid;
     flex-direction: column;
 }
 
@@ -114,8 +116,10 @@ a:visited{
     width: 100px;
     height: 150px;
     margin-top: 20px;
+    border: solid 1px black;
 
 }
+
 .filmes div a {
     text-decoration: none;
     color: black;
@@ -123,18 +127,23 @@ a:visited{
 
 }
 
-button{
+.filmes div a:hover {
+    text-decoration: underline;
+}
+
+button {
     color: white;
-    border-style:  none;
+    border-style: none;
     border-radius: 10px;
     text-decoration: none;
     display: inline-block;
     padding: 10px;
     margin-top: 20px;
     background-color: black;
+    cursor: pointer;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
