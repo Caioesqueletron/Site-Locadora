@@ -52,9 +52,25 @@ a:visited{
 
 .menu-lateral ul li {
     display: flex;
+    align-items: center;
     padding: 20px;
     
 }
+
+.menu-lateral ul li:hover{
+    background-color: white;
+    color: black;
+}
+
+.menu-lateral ul li a:hover{
+    color: black;
+}
+
+.menu-lateral ul li i:hover{
+    color: black;
+}
+
+
 
 
 .conteudo{
