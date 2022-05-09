@@ -29,13 +29,14 @@ html{
     grid-template-rows: 80vh;
     text-align: center;
     justify-content: center;
-    
+    text-align: center;
 }
 
 .cadastro{
     background-color: rgba(0, 0, 0, 0.8);
-    width:min-content;
     
+    margin: 80px;
+    margin-top: 5px;
     padding: 90px;
     border-radius: 15px;
     
@@ -46,21 +47,18 @@ html{
     
 }
 
-.tela_cadastro{
-    
-    width: 60vw;
-}
+
 
 .esquerda{
     grid-row: 90vh;
     width: 20vw;
-    background-color: red;
+    
 }
 
 .direita{
     grid-row: 90vh;
     width: 20vw;
-    background-color: red;
+    
 }
 
 h1{
@@ -88,9 +86,15 @@ input[type=text]{
     position: relative;
 }
 .campo{
-    display:inline;
+    width: auto;
+    height: auto;
+    display: inline;
     margin: 5px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
+
 button{
     
     
@@ -140,18 +144,7 @@ select{
     border-radius: 10px;
 }
 
-fieldset{
-    text-align: left;
-    position: relative;
-    
-    border: none;
-    display: flex;
-    margin: 1px;
-    padding: 2px;
-    justify-content: left;
-    width: 400px;
-    text-align: center;
-}
+
 
 input[type=radio]{
     width: 200px;
@@ -167,7 +160,25 @@ legend{
     text-align: center;
 }
 
+
+
+.tela_cadastro{
+
+    width: auto;
+}
+
+fieldset{ 
+    border: none;
+    width: auto;
+    padding: 20px;
+    margin: 2px;
+    display:-webkit-inline-flex;
+    text-align: center;
+}
+
 footer{
     height: 10vh;
-    
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
