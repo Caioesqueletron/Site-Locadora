@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    font-family: 'Oxygen', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+.cabecario {
+    background-image: url("../img/locadora-logo.jpg");
+    height: 10vh;
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 80vh;
+}
+
+.menu-lateral {
+    grid-row: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.menu-lateral ul li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+.menu-lateral ul li:hover a {
+    background-color: white;
+    color: black;
+}
+
+.menu-lateral ul li:hover i {
+    background-color: white;
+    color: black;
+}
+
+.menu-lateral ul li:hover{
+    background-color: white;
+}
+
+li {
+    justify-content: center;
+
+}
+
+li a {
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: white;
+}
+
+
+
+.conteudo {
+    display: flex;
+    grid-row: 80vh;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-color: white;
+    justify-content: flex-start;
+    padding-top: 50px;
+
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-filmes .pagina-filmes {
+    display: inline;
+    padding: 10px;
+}
+
+.filmes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+
+}
+
+.filmes div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    flex-direction: column;
+}
+
+.filmes div img {
+    width: 100px;
+    height: 150px;
+    margin-top: 20px;
+    border: solid 1px black;
+
+}
+
+.filmes div a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+
+}
+
+.filmes div a:hover {
+    text-decoration: underline;
+}
+
+button {
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+h4{
+    margin: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#nome{
+    width: 300px;
+    padding: 3px;
+}
+
+#email{
+    width: 300px;
+    padding: 3px;
+}
+
+#assunto{
+    width: 300px;
+    padding: 3px;
+}
+
+#caixa-mensagem{
+    padding: 3px;
+}
