@@ -83,9 +83,12 @@ a:visited {
     flex-direction: row;
     background-size: cover;
     background-color: white;
-    justify-content:center;
+    justify-content:space-evenly;
     align-self: center;
 
+}
+.conteudo img{
+    border: solid 2px black;
 }
 
 
