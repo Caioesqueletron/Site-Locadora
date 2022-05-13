@@ -89,52 +89,6 @@ a:visited {
 }
 
 
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.menu-filmes .pagina-filmes {
-    display: inline;
-    padding: 10px;
-}
-
-.filmes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 80px;
-
-}
-
-.filmes div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15vw;
-    flex-direction: column;
-}
-
-.filmes div img {
-    width: 100px;
-    height: 150px;
-    margin-top: 20px;
-    border: solid 1px black;
-
-}
-
-.filmes div a {
-    text-decoration: none;
-    color: black;
-    margin-top: 20px;
-
-}
-
-.filmes div a:hover {
-    text-decoration: underline;
-}
 
 button {
     color: white;
